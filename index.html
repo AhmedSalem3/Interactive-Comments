@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Comments</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="title">
+        <p>Frontend Mentor Challenge</p>
+        <a href="https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9">Challenge Link</a>
+    </div>
+
+    <!-- Start Holder -->
+    <div class="comments">
+        <div class="container">
+
+            <div class="all-comments">
+
+                <!-- <div class="comment-wrapper">
+
+                    <div class="comment">
+
+                        <div class="counter-holder">
+                            <div class="counter">
+                                <span class="counter-up counter-control">+</span>
+                                <span class="counter-number">15</span>
+                                <span class="counter-down counter-control">-</span>
+                            </div>
+                        </div>
+
+                        <div class="comment-content">
+
+                            <div class="post-info">
+                                <div class="user-info">
+                                    <img src="images/avatars/image-amyrobson.webp" alt="" class="user-photo">
+                                    <div class="user-name">Nada Samy</div>
+                                </div>
+
+                                <span class="timestamp">1 month ago</span>
+
+                                <div class="actions">
+                                    <span class="reply-btn"><img src="images/icon-reply.svg" alt=""> Reply</span>
+                                </div>
+                            </div>
+
+                            <p class="comment-text text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cupiditate culpa rerum?
+                                Necessitatibus error sequi illum voluptates quam non ab! Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Animi, quam? Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Iure dolores excepturi neque aliquam sapiente quis? Iste aliquam quo
+                                tenetur rem corporis consequatur, sapiente unde laborum!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="replies-holder">
+
+                        <div class="reply">
+
+                            <div class="counter-holder">
+                                <div class="counter">
+                                    <span class="counter-up counter-control">+</span>
+                                    <span class="counter-number">15</span>
+                                    <span class="counter-down counter-control">-</span>
+                                </div>
+                            </div>
+
+                            <div class="reply-content">
+
+                                <div class="post-info">
+                                    <div class="user-info">
+                                        <img src="images/avatars/image-maxblagun.webp" alt="" class="user-photo">
+                                        <div class="user-name">Ahmed Salem</div>
+                                    </div>
+
+                                    <span class="timestamp">3 weeks ago</span>
+
+                                    <div class="actions">
+                                        <span class="reply-btn"><img src="images/icon-reply.svg" alt=""> Reply</span>
+
+                                    </div>
+                                </div>
+
+                                <p class="comment-text text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam nesciunt, odio enim
+                                    modi tempora eos, dolorem iure, neque molestiae fuga cum quisquam quidem? Quidem
+                                    itaque
+                                    iure ad magnam laboriosam. Sequi!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="admin-reply reply">
+                            <div class="counter-holder">
+                                <div class="counter">
+                                    <span class="counter-up counter-control">+</span>
+                                    <span class="counter-number">15</span>
+                                    <span class="counter-down counter-control">-</span>
+                                </div>
+                            </div>
+
+                            <div class="reply-content">
+
+                                <div class="post-info">
+                                    <div class="user-info">
+                                        <img src="images/avatars/image-juliusomo.png" alt="" class="user-photo">
+                                        <div class="user-name">Adham Ahmed</div>
+                                    </div>
+                                    <span class="tag">You</span>
+                                    <span class="timestamp">1 weeks ago</span>
+
+                                    <div class="actions">
+                                        <span class="edit-btn"><img src="images/icon-edit.svg" alt=""> Edit</span>
+                                        <span class="delete-btn"><img src="images/icon-delete.svg" alt=""> Delete</span>
+
+                                    </div>
+                                </div>
+
+                                <p class="comment-text text">
+                                    <span class="comment-user-tag">@Nada Samy</span>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam nesciunt, odio enim
+                                    modi tempora eos, dolorem iure, neque molestiae fuga cum quisquam quidem? Quidem
+                                    itaque
+                                    iure ad magnam laboriosam. Sequi!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="reply-inputs admin-add">
+                            <img src="" alt="" class="current-user">
+                            <form action="" class="admin" id="#admin-comment">
+                                <textarea name="" id="" class="comment-textarea"
+                                    placeholder="Add a comment..."></textarea>
+                                <input type="submit" class="add-comment" value="Reply">
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div> -->
+
+            </div>
+
+            <div class="admin-add add-comment">
+                <img src="" alt="" class="current-user">
+                <form action="" class="admin">
+                    <textarea name="" id="" class="comment-textarea" placeholder="Add a comment..."></textarea>
+                    <input type="submit" class="show-comment" value="Send">
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Holder -->
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
